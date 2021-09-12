@@ -1,0 +1,984 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* Small */
+@media (min-width: 768px) {
+    .container {
+    width: 750px;
+    }
+}
+  /* Medium */
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .container {
+    width: 1170px;
+    }
+}
+  /* End Global Rules */
+/*Start header*/
+.header {
+        width: 100%;
+        position: fixed;
+        font-size: 17px;
+        z-index: 1;
+}
+.header .container {
+    position: relative;
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 48px;
+
+}
+.header .container .icon {
+    display: none;
+}
+.header .container form {
+    display: none;
+}
+.header .container ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    left: 21%;
+
+}
+.header .container ul li a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 40px 40px;
+    font-size: 15px;
+}
+.header .container .mob {
+    display: none;
+}
+.header .container .fab  {
+    color: #ccc;
+    font-size: 22px;
+    position: absolute;
+    left: 390px;
+    bottom: 14px;
+}
+.header .container  .fas {
+    color: #ccc;
+    font-size: 20px;
+    position: absolute;
+    left: 1466px;
+    top: 17px;
+}
+/*End header*/
+/*Start landing*/
+.landing {
+    padding-bottom: 10px;
+    width: 85%;
+
+}
+
+.landing-mob {
+    display: none;
+}
+.landing .container {
+    display: flex;
+    position: relative;
+}
+.landing .container .content {
+    position: relative;
+}
+.landing .container .content .c1 {
+    position: absolute;
+    left: 132px;
+    padding: 40px 10px;
+    width: 100%;
+    align-items: center;
+}
+.landing .container img {
+    width: 1900px;
+    position: absolute;
+    left: -375px;
+    top: 294px;
+}
+.landing .container .content .c1 h1 {
+    position: absolute;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    left: 421px;
+    width: 285px;
+    bottom: -136px;
+
+}
+.landing .container .content .c1 a {
+    bottom: -180px;
+    position: absolute;
+    right: -597px;
+    text-decoration: none;
+    color: #06c;
+    font-size: 22px;
+
+    }
+.landing .container .content .c1 p {
+    position: absolute;
+    left: 458px;
+    bottom: -168px;
+    width: 285px;
+    font-size: 29px;
+}
+.landing .container .c2 {
+    position: absolute;
+    bottom: -762px;
+    left: 246px;
+}
+.landing .container .c2 h1 {
+    color: white;
+    position: absolute;
+    width: 375px;
+    left: 388px;
+    bottom: -216px;
+    text-align: center;
+    z-index: 1;
+    font-size: 56px;
+}
+.landing .container .content .c2 .text {
+    position: absolute;
+    left: -163px;
+
+}
+.landing .container .im {
+    position: absolute;
+    top: 77px;
+    width: 1900px;
+    max-height: 736px;
+    left: -485px;
+} 
+.landing .container .c2 p {
+    position: absolute;
+    left: 481px;
+    bottom: -242px;
+    width: 285px;
+    font-size: 29px;
+    z-index: 1;
+    color: white;
+}
+.landing .container .c2 a {
+    bottom: -253px;
+    position: absolute;
+    right: -645px;
+    text-decoration: none;
+    color: #06c;
+    z-index: 1;
+    font-size: 22px;
+    text-align: center;
+}
+
+.landing .container .content .c3 .text {
+    position: absolute;
+    left: 86px;
+
+}
+.landing .container .c3 .img-3 {
+      position: absolute;
+    top: 1585px;
+    width: 1900px;
+    max-height: 736px;
+    left: -240px;
+
+} 
+.landing .container .c3 p {
+    position: absolute;
+    left: 348px;
+    bottom: -1770px;
+    width: 285px;
+    font-size: 29px;
+    z-index: 1;
+    color: white;
+    width: 468px;
+}
+.landing .container .c3 h1 {
+    color: white;
+    position: absolute;
+    width: 375px;
+    left: 388px;
+    bottom: -1734px;
+    text-align: center;
+    z-index: 1;
+    font-size: 56px;
+}
+.landing .container .c3 a {
+    text-decoration: none;
+    position: absolute;
+    color: #06c;
+    z-index: 1;
+    font-size: 22px;
+    text-align: center;
+    bottom: -1781px;
+    right: -653px;
+}
+.landing .container .c4 .img-4 {
+    position: absolute;
+    top: 120px;
+    width: 830px;
+    left: -385px;
+} 
+.landing .container .c4 .left {
+    position: absolute;
+    left: 195px;
+
+}
+.landing .container .c4 .left p {
+    position: absolute;
+    width: 246px;
+    right: -180px;
+    bottom: -62px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.landing .container .c4 .left .link-1{
+    position: absolute;
+    right: -184px;
+    text-decoration: none;
+    color: #777;
+    font-size: 20px;
+    top: 53px;
+    width: 280px;
+
+
+}
+.landing .container .c4 .left .link-2{
+    position: absolute;
+    right: -110px;
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+    top: 88px;
+    width: 131px;
+}
+.landing .container .c4 .left h1 {
+    position: absolute;
+    font-size: 47px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    right: -93px;
+    top: -78px;
+
+}
+.landing .container .c4 .img-5 {
+    position: absolute;
+    top: -93px;
+    width: 910px;
+    left: 746px;
+    height: 642px;
+}
+ 
+.landing .container .c4 {
+    position: absolute;
+    top: 2426px;
+}
+.landing .container .c4 .right p {
+    position: absolute;
+    right: -1378px;
+    color: white;
+    z-index: 1;
+    top: 6px;
+    font-size: 22px;
+}
+.landing .container .c4 .right a {
+    position: absolute;
+    text-decoration: none;
+    color: #06c;
+    z-index: 1;
+    font-size: 20px;
+    right: -1270px;
+    bottom: -90px;
+}
+.landing .container .c5 {
+    position: absolute;
+    bottom: -3091px;
+}
+.landing .container .c5 .left {
+    position:absolute;
+    right: -267px;
+ 
+}
+.landing .container .c5 .left .img-5 {
+    position: absolute;
+    width: 827px;
+    left: -438px;
+    top: -131px;
+}
+.landing .container .c5 .left p {
+    position: absolute;
+    right: -250px;
+    color: #777;
+    font-size: 23px;
+    width: 359px;
+    z-index: 1;
+    top: -16px;
+}
+
+.landing .container .c5 .left .link-1 {
+    position: absolute;
+    right: 7px;
+    text-decoration: none;
+    color: #06c;
+    z-index: 1;
+    font-size: 18px;
+    width: 116px;
+    top: 48px;
+}
+.landing .container .c5 .left .link-2 {
+    position: absolute;
+    right: -145px;
+    text-decoration: none;
+    color: #06c;
+    z-index: 1;
+    font-size: 19px;
+    width: 116px;
+    top: 50px;
+}
+.landing .container .c5 .right h1 {
+    position: absolute;
+    right: -1267px;
+    z-index: 1;
+    font-size: 45px;
+    font-weight: 600;
+    bottom: -29px;
+
+}
+.landing .container .c5 .right a {
+    position: absolute;
+    right: -1191px;
+    z-index: 1;
+    text-decoration: none;
+    color: #06c;
+    font-size: 18px;
+    width: 116px;
+    top: 15px;
+}
+.landing .container .c5 .right .img-6 {
+    position: absolute;
+    width: 625px;
+    left: 844px;
+    top: 52px;
+}
+.landing .container .c5 .right {
+    position:absolute;
+    left: 92px;
+}
+.landing .container .c6 {
+    position: absolute;
+    bottom: -3818px;
+}
+.landing .container .c6 .right .img-6 {
+    position: absolute;
+    width: 940px;
+    left: 720px;
+    height: 700px;
+    top: -122px;
+}
+
+.landing .container .c6 .right .link-1 {
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 17px;
+    width: 116px;
+    left: 1076px;
+    color: white;
+    top: 478px;
+}
+.landing .container .c6 .right .link-2 {
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    font-size: 17px;
+    width: 115px;
+    left: 1223px;
+    top: 477px;
+    color: white;
+}
+.landing .container .c6 .left a {
+    position: absolute;
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+    z-index: 1;
+    left: -77px;
+    top: 52px;
+    width: 136px;
+}
+.landing .container .c6 .left h1 {
+    position: absolute;
+    left: -105px;
+    top: -87px;
+    font-size: 46px;
+    z-index: 1;
+}
+.landing .container .c6 .left p {
+    position: absolute;
+    width: 360px;
+    font-size: 24px;
+    top: -13px;
+    left: -191px;
+    z-index: 1;
+    color: #777;
+}
+.landing .container .c6 .left .img-7 {
+    position: absolute;
+    width: 850px;
+    top: 133px;
+    left: -448px;
+}
+.landing .container .c6 .left {
+    position: absolute;
+    right: -255px;
+
+}
+/*End landing*/
+/*Start About*/
+.about-mob {
+    display: none;
+}
+.about {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+}
+.about .container {
+    position: absolute;
+    bottom: -3879px;
+    background-color: #f5f5f7;
+    right: 7px;
+    width: 2096px;
+    height: 589px;
+}
+.about .container .text {
+    position: absolute;
+    right: 90px;
+    font-size: 13px;
+    width: 75%;
+    color: #777;
+    margin-top: 15px;
+}
+.about .container .text::after {
+    content: "";
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    border-color: #Ccc;
+    width: 1025px;
+    bottom: -15px;
+
+}
+.about .container .explore {
+    position: absolute;
+    list-style: none;
+    font-weight: 600;
+    left: 382px;
+    top: 124px;
+    font-size: 12px;
+}
+.about .container .explore li {
+    padding-bottom: 15px;
+    top: 18px;
+    position: relative;
+}
+.about .container .explore li a {
+    text-decoration: none;
+    color: #777;
+}
+.about .container .services {
+    position: absolute;
+    list-style: none;
+    font-weight: 600;
+    left: 639px;
+    top: 124px;
+    font-size: 12px;
+}
+.about .container .services li {
+    padding-bottom: 15px;
+    top: 18px;
+    position: relative;
+}
+.about .container .services li a {
+    text-decoration: none;
+    color: #777;
+}
+.about .container .account {
+    position: absolute;
+    list-style: none;
+    font-weight: 600;
+    left: 906px;
+    top: 124px;
+    font-size: 12px;
+}
+.about .container .account li {
+    padding-bottom: 15px;
+    top: 18px;
+    position: relative;
+}
+.about .container .account li a {
+    text-decoration: none;
+    color: #777;
+}
+.about .container .about-apple {
+    position: absolute;
+    list-style: none;
+    font-weight: 600;
+    left: 1151px;
+    top: 124px;
+    font-size: 12px;
+}
+.about .container .about-apple li {
+    padding-bottom: 15px;
+    top: 18px;
+    position: relative;
+}
+.about .container .about-apple li a {
+    text-decoration: none;
+    color: #777;
+}
+.about .container .find {
+    bottom: 130px;
+    left: 417px;
+    position: absolute;
+}
+.about .container .find .link {
+    text-decoration: none;
+    color: #06c;
+    font-size: 14px;
+
+}
+.about .container .find .part {
+    position: absolute;
+    left: 89px;
+    width: 73px;
+    top: -13px;
+    font-size: 14px;
+    color: #777;
+}
+.about .container .find .part::after {
+    content: "";
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    border-color: #Ccc;
+    width: 1025px;
+    bottom: -15px;
+    left: -92px;
+}
+.about .container .last {
+    position:absolute;
+    bottom: 10px;
+    left: 417px;
+}
+.about .container .last .copyright {
+    position: absolute;    
+    top: -91px;
+    font-size: 14px;
+    color: #777;
+    width: 290px;
+}
+.about .container .last .links {
+    left: 345px;
+    top: -76px;
+    position: absolute;
+    width: 290px;
+    font-size: 14px;
+}
+.about .container .last .links a {
+    text-decoration: none;
+    color: #777;
+    padding: 3px;
+}
+.about .container .last .region {
+    position: absolute;
+    left: 955px;
+    top: -73px;
+    width: 100px;
+}
+.about .container .last .region a {
+    text-decoration: none;
+    color: #777;
+    padding: 3px;
+    font-size: 14px;
+}
+
+/*End About*/
+/*Start Responsive*/
+@media (max-width: 767px) {
+    .header .container .fas {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .landing  {
+        display: none;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .header .container {
+        width: 375px;
+        height: 48px;
+    }
+
+    .header .container .fab {
+        position: absolute;
+        left: 176px;
+        font-size: 23px;
+        top: 9px;
+    }  
+    .header .container .menu {
+        display: flex;
+    }
+    .header .container .mob {
+        position: absolute;
+        left: -8px;
+        bottom: 33px;
+        color: #ccc;
+        display: block;
+    }  
+    .header .container .menu {
+        display: none;
+
+    }
+    .landing-mob {
+        display: block;
+        width: 375px;
+
+        
+    }
+    .landing-mob .container-mob {
+        position: relative;
+    }
+    .landing-mob .container-mob .text h1 {
+        font-size: 32px;
+        line-height: 1.47059;
+        color: rgba(0,0,0,0.8);
+        letter-spacing: -0.5px;
+    }
+    .landing-mob .container-mob .text {
+        position: absolute;
+        right: 113px;
+        top: 10px;
+    }
+    .landing-mob .container-mob .image {
+        position: absolute;
+        top: 174px;
+        right: 1px;
+    }
+    .landing-mob .container-mob .text p {
+        position: absolute;
+        color: #777;
+        font-size: 18px;
+        top: 48px;
+        right: 14px;
+        }
+    .landing-mob .container-mob .text a {
+        text-decoration: none;
+        color: #06c;
+        font-size: 17px;
+        position: absolute;
+        right: 21px;
+        top: 97px;
+    }
+    .landing-mob .container-mob .text-2 h1 {
+        position: absolute;
+        color: white;
+        top: 517px;
+        z-index: 1;
+        left: 85px;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+    }
+    .landing-mob .container-mob .text-2 p {
+        position: absolute;
+        z-index: 1;
+        top: 561px;
+        color: white;
+        left: 119px;
+        font-size: 19px;
+    }
+    .landing-mob .container-mob .text-2 a {
+        position: absolute;
+        z-index: 1;
+        top: 610px;
+        text-decoration: none;
+        color: #06c;
+        left: 134px;
+        font-size: 17px;
+    }
+    
+    .landing-mob .container-mob .image-2 {
+        position: absolute;
+        top: 506px;
+    }
+    .landing-mob .container-mob .image-2 img {
+        width: 379px;
+    }
+    .landing-mob .container-mob .image-3 {
+        position: absolute;
+        top: 1072px;
+        }
+.landing-mob .container-mob .text-3 h1 {
+    position: absolute;
+    color: white;
+    top: 1090px;
+    z-index: 1;
+    left: 120px;
+    font-size: 31px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+}
+.landing-mob .container-mob .text-3 p {
+    position: absolute;
+    z-index: 1;
+    top: 1131px;
+    color: white;
+    left: 38px;
+    font-size: 18px;
+}
+.landing-mob .container-mob .text-3 a {
+    position: absolute;
+    z-index: 1;
+    top: 1182px;
+    text-decoration: none;
+    color: #06c;
+    left: 134px;
+     font-size: 17px;
+}
+.landing-mob .container-mob .image-4 {
+    position: absolute;
+    top: 1555px;
+    z-index: -1;
+    }
+.landing-mob .container-mob .text-4 p {
+    position: absolute;
+    z-index: 1;
+    top: 1637px;
+    color: black;
+    left: 107px;
+    font-size: 18px;
+}
+.landing-mob .container-mob .text-4 .link-2 {
+    position: absolute;
+    z-index: 1;
+    top: 1700px;
+    text-decoration: none;
+    color: #06c;
+    left: 134px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .text-4 .link-1 {
+    position: absolute;
+    right: 4px;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    top: 1678px;
+    width: 280px;
+}
+.landing-mob .container-mob .image-5 {
+    position: absolute;
+    top: 2093px;
+    z-index: 1;
+}
+.landing-mob .container-mob .text-5 p {
+    position: absolute;
+    z-index: 2;
+    top: 2156px;
+    color: white;
+    left: 48px;
+    font-size: 18px;
+}
+.landing-mob .container-mob .text-5 a {
+    position: absolute;
+    z-index: 2;
+    top: 2205px;
+    text-decoration: none;
+    color: #06c;
+    left: 134px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .image-6 {
+    position: absolute;
+    top: 2590px;
+    right: -1px;
+}
+.landing-mob .container-mob .c66 p {
+    position: absolute;
+    z-index: 1;
+    top: 2657px;
+    color: #777;
+    left: 112px;
+    font-size: 18px;
+
+}
+.landing-mob .container-mob .c66 .link-2 {
+    position: absolute;
+    z-index: 1;
+    top: 2707px;
+    text-decoration: none;
+    color: #06c;
+    left: 209px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .c66 .link-1 {
+    position: absolute;
+    z-index: 1;
+    top: 2708px;
+    text-decoration: none;
+    color: #06c;
+    left: 85px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .image-7 {
+    position: absolute;
+    top: 3084px;
+}
+.landing-mob .container-mob .c77 a {
+    position: absolute;
+    z-index: 1;
+    top: 3186px;
+    text-decoration: none;
+    color: #06c;
+    left: 135px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .c88 .image-8 {
+    position: absolute;
+    top: 3579px;
+}
+.landing-mob .container-mob .c88 a {
+    position: absolute;
+    z-index: 1;
+    top: 3705px;
+    text-decoration: none;
+    color: #06c;
+    left: 130px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .c88 p {
+    position: absolute;
+    z-index: 1;
+    top: 3651px;
+    color: #777;
+    left: 40px;
+    font-size: 19px;
+}
+.landing-mob .container-mob .c99 .image-9 {
+    position: absolute;
+    top: 4101px;
+    width: 375px;
+
+}
+.landing-mob .container-mob .c99 .link-2 {
+    position: absolute;
+    z-index: 1;
+    top: 4538px;
+    text-decoration: none;
+    color: white;
+    left: 208px;
+    font-size: 17px;
+}
+.landing-mob .container-mob .c99 .link-1 {
+    position: absolute;
+    z-index: 1;
+    top: 4538px;
+    text-decoration: none;
+    color: white;
+    left: 74px;
+    font-size: 17px;
+}
+.about-mob {
+    display: block;
+    width: 375px;
+    position: relative;
+    height: 476px;
+    top: 4601px;
+    background-color: #f5f5f7;
+}
+.about-mob .container-mob .text{
+    position: absolute;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #777;
+    width: 294px;
+    right: 44px;
+    top: 21px;
+}
+
+.about-mob .container-mob .explore li {
+    display: none;
+}
+.about-mob .container-mob .services li {
+    display: none;
+}
+.about-mob .container-mob .account li {
+    display: none;
+}
+.about-mob .container-mob .about-apple li {
+    display: none;
+}
+.about-mob .container-mob .about-sec {
+    position: absolute;
+    top: 188px;
+    left: -26px;
+    color: #777;
+    font-size: 12px;
+}
+
+.about-mob .container-mob .explore  {
+    padding-bottom: 10px;
+
+}
+.about-mob .container-mob .services  {
+    padding-bottom: 10px;
+
+
+}
+.about-mob .container-mob .account  {
+    padding-bottom: 10px;
+
+}
+.about-mob .container-mob .about-apple {
+    padding-bottom: 10px;
+
+}
+
+
+
+
+}
+/*End Responsive*/
